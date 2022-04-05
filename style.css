@@ -1,0 +1,80 @@
+
+:root{
+
+    /* ### Primary */
+--Very-dark-blue: hsl(233, 47%, 7%);
+--Dark-desaturated-blue: hsl(244, 38%, 16%);
+--Soft-violet: hsl(277, 64%, 61%);
+
+/* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+--Slightly-transparent-white-grey: hsla(0, 0%, 100%, 0.6);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body{
+    background-color: var(--Very-dark-blue);
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: var(--Dark-desaturated-blue);
+    color: var(--White);
+   
+}
+
+.texto-rosa{
+    color: var(--Soft-violet);
+}
+
+.descripcion{
+    width: 100%;
+    color: var(--Slightly-transparent-white);
+}
+
+.texto{
+    padding: 50px;
+}
+
+.texto-numero{
+    padding: 10px 0px;
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    width: auto;
+    color: var(--Slightly-transparent-white-grey);
+    
+}
+
+.numero{
+    font-weight: bold;
+    color: var(--White);
+}
+
+
+li{
+    display: grid
+}
+    
+
+.imagen-container{
+    width: 900px;
+    background: rgb(103, 0, 122);
+    position: relative;
+}
+
+.imagen-sonrisa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.4;
+    filter: contrast(150%) brightness(80%) ;
+}
+
+
