@@ -22,7 +22,7 @@ body{
 
 .hero-container{
     display: flex;
-    width: 80%;
+    width: 60%;
     margin: auto;
     background-color: var(--Dark-desaturated-blue);
     color: var(--White);
@@ -40,6 +40,7 @@ body{
 
 .texto{
     padding: 50px;
+    width: 40%;
 }
 
 .texto-numero{
@@ -64,7 +65,7 @@ li{
     
 
 .imagen-container{
-    width: 900px;
+    width: 50%;
     background: rgb(103, 0, 122);
     position: relative;
 }
